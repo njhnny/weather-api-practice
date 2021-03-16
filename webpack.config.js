@@ -16,7 +16,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: 'Document',
+      title: 'weather-api-practice',
       template: './src/index.html',
       inject: 'body'
     }),
